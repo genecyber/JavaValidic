@@ -1,14 +1,10 @@
 package com.validic;
 
-import static org.junit.Assert.*;
-
 import com.validic.core.*;
+import org.junit.*;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 
 public class CreateTests {

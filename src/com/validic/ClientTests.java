@@ -1,16 +1,12 @@
 package com.validic;
 
-import static org.junit.Assert.*;
-
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
-
 import com.google.common.collect.ImmutableMap;
 import com.validic.Filters.ExpandedFilter;
 import com.validic.Filters.StatusFilter;
+import org.junit.*;
+
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class ClientTests {
 	@BeforeClass

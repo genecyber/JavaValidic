@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons-lang.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-codec-1.6.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-lang3-3.3.2.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-logging-1.1.1.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-2.3.2.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-json-2.3.2.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-xml-2.3.2.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-core-1.3.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-library-1.3.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpclient-4.2.6.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpcore-4.2.5.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.0.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.2.6.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-annotations-2.4.1.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-core-2.4.1.1.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-databind-2.4.1.3.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/rest-assured-2.3.2.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/scribe-1.3.5.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/tagsoup-1.2.1.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/unirest-java-1.3.21.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/retrofit-1.6.1.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/gson-2.3.jar" />
+    <libelement value="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/guava-18.0.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/bin" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/" expected_position="2" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="junit4">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="apache-commons.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="apache-commons-lang.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons-lang.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-codec-1.6.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-codec-1.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang3-3.3.2.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-lang3-3.3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.1.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-logging-1.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="groovy-2.3.2.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-2.3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="groovy-json-2.3.2.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-json-2.3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="groovy-xml-2.3.2.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-xml-2.3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hamcrest-core-1.3.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-core-1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hamcrest-library-1.3.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-library-1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpclient-4.2.6.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpclient-4.2.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpcore-4.2.5.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpcore-4.2.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpmime-4.0.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="httpmime-4.2.6.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.2.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-annotations-2.4.1.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-annotations-2.4.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-core-2.4.1.1.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-core-2.4.1.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-databind-2.4.1.3.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-databind-2.4.1.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rest-assured-2.3.2.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/rest-assured-2.3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="scribe-1.3.5.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/scribe-1.3.5.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="tagsoup-1.2.1.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/tagsoup-1.2.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="unirest-java-1.3.21.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/unirest-java-1.3.21.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="retrofit-1.6.1.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/retrofit-1.6.1.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/retrofit-parent-1.6.0.zip" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="gson-2.3.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/gson-2.3.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guava-18.0.jar">
+        <CLASSES>
+          <root url="file://C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/guava-18.0.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/JavaLib/google-collections-1.0-rc2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: junit:junit:3.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.2" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.retrofit:retrofit:1.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.collections:google-collections:1.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.3" level="project" />
+  </component>
+</module>
+
