@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Lib">
+    <property environment="env"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="../../../../../development/eclipse/plugins/org.junit_4.8.1.v4_8_1_v20100427-1100/junit.jar"/>
+        <pathelement location="../../../../../development/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+    </path>
+    <path id="Lib.classpath">
+        <pathelement location="bin"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="lib/apache-commons.jar"/>
+        <pathelement location="lib/apache-commons-lang.jar"/>
+        <pathelement location="lib/commons-codec-1.6.jar"/>
+        <pathelement location="lib/commons-lang3-3.3.2.jar"/>
+        <pathelement location="lib/commons-logging-1.1.1.jar"/>
+        <pathelement location="lib/groovy-2.3.2.jar"/>
+        <pathelement location="lib/groovy-json-2.3.2.jar"/>
+        <pathelement location="lib/groovy-xml-2.3.2.jar"/>
+        <pathelement location="lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="lib/hamcrest-library-1.3.jar"/>
+        <pathelement location="lib/httpclient-4.2.6.jar"/>
+        <pathelement location="lib/httpcore-4.2.5.jar"/>
+        <pathelement location="lib/httpmime-4.0.jar"/>
+        <pathelement location="lib/httpmime-4.2.6.jar"/>
+        <pathelement location="lib/jackson-annotations-2.4.1.jar"/>
+        <pathelement location="lib/jackson-core-2.4.1.1.jar"/>
+        <pathelement location="lib/jackson-databind-2.4.1.3.jar"/>
+        <pathelement location="lib/rest-assured-2.3.2.jar"/>
+        <pathelement location="lib/scribe-1.3.5.jar"/>
+        <pathelement location="lib/tagsoup-1.2.1.jar"/>
+        <pathelement location="lib/unirest-java-1.3.21.jar"/>
+        <pathelement location="lib/retrofit-1.6.1.jar"/>
+        <pathelement location="lib/gson-2.3.jar"/>
+        <pathelement location="lib/guava-18.0.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="bin">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir=".">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="src/"/>
+                <exclude name="Lib/"/>
+                <exclude name="lib/"/>
+                <exclude name="lib/"/>
+                <exclude name="bin/"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Lib.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="bin"/>
+            <classpath refid="Lib.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="."/>
+            <exclude name="src/"/>
+            <exclude name="Lib/"/>
+            <exclude name="lib/"/>
+            <exclude name="lib/"/>
+            <exclude name="bin/"/>
+            <classpath refid="Lib.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="ClientTests.FilterEmptyMapTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="ClientTests.FilterEnumTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="ClientTests.FilterMapTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="ClientTests.FilterNonEmptyMapTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="com.validic">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests.DeleteFitness">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests.DeleteUserByIdTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests.DeleteUserTwiceTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests.ExhaustiveDeleteFitnessTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="DeleteTests.RoutineDeleteTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="Lib">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.CreateTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.RetrieveTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.UpdateTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="RetrieveTests.FitnessTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.RetrieveTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="RetrieveTests.NutritionTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.RetrieveTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="src">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.CreateTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.RetrieveTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.UpdateTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="com.validic (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.CreateTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.DeleteTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.RetrieveTests" todir="${junit.output.dir}"/>
+            <test name="com.validic.UpdateTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="ClientTests">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="com.validic.ClientTests" todir="${junit.output.dir}"/>
+            <classpath refid="Lib.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

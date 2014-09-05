@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="bin"/>
+	<classpathentry excluding="src/|Lib/|lib/|lib/|bin/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-json-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/groovy-xml-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpclient-4.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpcore-4.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.0.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/httpmime-4.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-annotations-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-core-2.4.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/jackson-databind-2.4.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/rest-assured-2.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/scribe-1.3.5.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/tagsoup-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/unirest-java-1.3.21.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/retrofit-1.6.1.jar" sourcepath="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/retrofit-parent-1.6.0.zip"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/gson-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/cygwin/home/ShannonCode/repo/JavaValidic/lib/guava-18.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
