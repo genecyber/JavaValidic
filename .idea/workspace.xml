@@ -2,87 +2,157 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099f94b7-a791-4700-a8d4-ce60128fca29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lib.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_4_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/shannon.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="DELETED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\build.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\ClientTests.java" afterPath="$PROJECT_DIR$/src/tests/validic/ClientTests.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\CreateTests.java" afterPath="$PROJECT_DIR$/src/tests/validic/CreateTests.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\DeleteTests.java" afterPath="$PROJECT_DIR$/src/tests/validic/DeleteTests.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\Filters.java" afterPath="$PROJECT_DIR$/src/main/validic/Filters.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\JacksonConverter.java" afterPath="$PROJECT_DIR$/src/main/validic/JacksonConverter.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\RetrieveTests.java" afterPath="$PROJECT_DIR$/src/tests/validic/RetrieveTests.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\TestHelper.java" afterPath="$PROJECT_DIR$/src/tests/validic/TestHelper.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\TestingMocks.java" afterPath="$PROJECT_DIR$/src/tests/validic/TestingMocks.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\UpdateTests.java" afterPath="$PROJECT_DIR$/src/tests/validic/UpdateTests.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\ValidicClient.java" afterPath="$PROJECT_DIR$/src/main/validic/ValidicClient.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\ValidicErrorHandler.java" afterPath="$PROJECT_DIR$/src/main/validic/ValidicErrorHandler.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\ValidicObjectException.java" afterPath="$PROJECT_DIR$/src/main/validic/ValidicObjectException.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Biometric.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Biometric.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Diabetes.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Diabetes.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Fitness.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Fitness.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\GetRequest.java" afterPath="$PROJECT_DIR$/src/main/validic/core/GetRequest.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IBiometric.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IBiometric.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IDiabetes.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IDiabetes.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IFitness.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IFitness.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\INutrition.java" afterPath="$PROJECT_DIR$/src/main/validic/core/INutrition.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IOrganization.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IOrganization.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IProfile.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IProfile.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IRoutine.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IRoutine.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\ISleep.java" afterPath="$PROJECT_DIR$/src/main/validic/core/ISleep.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\ITobaccoCessation.java" afterPath="$PROJECT_DIR$/src/main/validic/core/ITobaccoCessation.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IUsers.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IUsers.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\IWeight.java" afterPath="$PROJECT_DIR$/src/main/validic/core/IWeight.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Nutrition.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Nutrition.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Organization.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Organization.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Params.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Params.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Profile.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Profile.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Request.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Request.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Routine.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Routine.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Sleep.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Sleep.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Summary.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Summary.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\TobaccoCessation.java" afterPath="$PROJECT_DIR$/src/main/validic/core/TobaccoCessation.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\User.java" afterPath="$PROJECT_DIR$/src/main/validic/core/User.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\com\validic\core\Weight.java" afterPath="$PROJECT_DIR$/src/main/validic/core/Weight.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\CDL.java" afterPath="$PROJECT_DIR$/src/main/validic/json/CDL.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\Cookie.java" afterPath="$PROJECT_DIR$/src/main/validic/json/Cookie.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\CookieList.java" afterPath="$PROJECT_DIR$/src/main/validic/json/CookieList.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\HTTP.java" afterPath="$PROJECT_DIR$/src/main/validic/json/HTTP.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\HTTPTokener.java" afterPath="$PROJECT_DIR$/src/main/validic/json/HTTPTokener.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONArray.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONArray.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONException.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONException.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONML.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONML.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONObject.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONObject.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONString.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONString.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONStringer.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONStringer.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONTokener.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONTokener.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\JSONWriter.java" afterPath="$PROJECT_DIR$/src/main/validic/json/JSONWriter.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\Kim.java" afterPath="$PROJECT_DIR$/src/main/validic/json/Kim.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\Property.java" afterPath="$PROJECT_DIR$/src/main/validic/json/Property.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\XML.java" afterPath="$PROJECT_DIR$/src/main/validic/json/XML.java" />
+      <change type="MOVED" beforePath="C:\cygwin64\home\shannon\repo\JavaValidic\src\org\json\XMLTokener.java" afterPath="$PROJECT_DIR$/src/main/validic/json/XMLTokener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.lock" afterPath="$PROJECT_DIR$/.metadata/.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/resources/inherit.gif" afterPath="$PROJECT_DIR$/doc/resources/inherit.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" afterPath="$PROJECT_DIR$/.metadata/.mylyn/repositories.xml.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.mylyn/tasks.xml.zip" afterPath="$PROJECT_DIR$/.metadata/.mylyn/tasks.xml.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Biometric.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Biometric.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/CDL.java" afterPath="$PROJECT_DIR$/src/org/json/CDL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/ClientTests.java" afterPath="$PROJECT_DIR$/src/com/validic/ClientTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/Cookie.java" afterPath="$PROJECT_DIR$/src/org/json/Cookie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/CookieList.java" afterPath="$PROJECT_DIR$/src/org/json/CookieList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/CreateTests.java" afterPath="$PROJECT_DIR$/src/com/validic/CreateTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/DeleteTests.java" afterPath="$PROJECT_DIR$/src/com/validic/DeleteTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Diabetes.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Diabetes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/Filters.java" afterPath="$PROJECT_DIR$/src/com/validic/Filters.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Fitness.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Fitness.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/GetRequest.java" afterPath="$PROJECT_DIR$/src/com/validic/core/GetRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/HTTP.java" afterPath="$PROJECT_DIR$/src/org/json/HTTP.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/HTTPTokener.java" afterPath="$PROJECT_DIR$/src/org/json/HTTPTokener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IBiometric.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IBiometric.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IDiabetes.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IDiabetes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IFitness.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IFitness.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/INutrition.java" afterPath="$PROJECT_DIR$/src/com/validic/core/INutrition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IOrganization.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IOrganization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IProfile.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IRoutine.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IRoutine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/ISleep.java" afterPath="$PROJECT_DIR$/src/com/validic/core/ISleep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/ITobaccoCessation.java" afterPath="$PROJECT_DIR$/src/com/validic/core/ITobaccoCessation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IUsers.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IUsers.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/IWeight.java" afterPath="$PROJECT_DIR$/src/com/validic/core/IWeight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONArray.java" afterPath="$PROJECT_DIR$/src/org/json/JSONArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONException.java" afterPath="$PROJECT_DIR$/src/org/json/JSONException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONML.java" afterPath="$PROJECT_DIR$/src/org/json/JSONML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONObject.java" afterPath="$PROJECT_DIR$/src/org/json/JSONObject.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONString.java" afterPath="$PROJECT_DIR$/src/org/json/JSONString.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONStringer.java" afterPath="$PROJECT_DIR$/src/org/json/JSONStringer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONTokener.java" afterPath="$PROJECT_DIR$/src/org/json/JSONTokener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/JSONWriter.java" afterPath="$PROJECT_DIR$/src/org/json/JSONWriter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/JacksonConverter.java" afterPath="$PROJECT_DIR$/src/com/validic/JacksonConverter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/Kim.java" afterPath="$PROJECT_DIR$/src/org/json/Kim.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Biometric.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Biometric.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/CDL.html" afterPath="$PROJECT_DIR$/doc/org/json/CDL.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/ClientTests.html" afterPath="$PROJECT_DIR$/doc/com/validic/ClientTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/Cookie.html" afterPath="$PROJECT_DIR$/doc/org/json/Cookie.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/CookieList.html" afterPath="$PROJECT_DIR$/doc/org/json/CookieList.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/CreateTests.html" afterPath="$PROJECT_DIR$/doc/com/validic/CreateTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/DeleteTests.html" afterPath="$PROJECT_DIR$/doc/com/validic/DeleteTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Diabetes.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Diabetes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/Filters.ExpandedFilter.html" afterPath="$PROJECT_DIR$/doc/com/validic/Filters.ExpandedFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/Filters.StatusFilter.html" afterPath="$PROJECT_DIR$/doc/com/validic/Filters.StatusFilter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/Filters.html" afterPath="$PROJECT_DIR$/doc/com/validic/Filters.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Fitness.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Fitness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/GetRequest.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/GetRequest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/HTTP.html" afterPath="$PROJECT_DIR$/doc/org/json/HTTP.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/HTTPTokener.html" afterPath="$PROJECT_DIR$/doc/org/json/HTTPTokener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IBiometric.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IBiometric.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IDiabetes.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IDiabetes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IFitness.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IFitness.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/INutrition.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/INutrition.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IOrganization.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IOrganization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IProfile.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IProfile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IRoutine.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IRoutine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/ISleep.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/ISleep.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/ITobaccoCessation.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/ITobaccoCessation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IUsers.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IUsers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/IWeight.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/IWeight.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONArray.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONArray.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONException.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONML.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONObject.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONObject.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONString.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONString.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONStringer.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONStringer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONTokener.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONTokener.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/JSONWriter.html" afterPath="$PROJECT_DIR$/doc/org/json/JSONWriter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/JacksonConverter.html" afterPath="$PROJECT_DIR$/doc/com/validic/JacksonConverter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/Kim.html" afterPath="$PROJECT_DIR$/doc/org/json/Kim.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Nutrition.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Nutrition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lib.iml" afterPath="$PROJECT_DIR$/Lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_4_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_collections_google_collections_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_retrofit_retrofit_1_6_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Nutrition.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Nutrition.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Organization.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Params.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Params.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Profile.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Profile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/Property.java" afterPath="$PROJECT_DIR$/src/org/json/Property.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Organization.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Organization.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Params.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Params.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Profile.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/Property.html" afterPath="$PROJECT_DIR$/doc/org/json/Property.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Request.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Request.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/RetrieveTests.java" afterPath="$PROJECT_DIR$/src/com/validic/RetrieveTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Routine.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Routine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Sleep.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Sleep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Summary.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Summary.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/TestHelper.java" afterPath="$PROJECT_DIR$/src/com/validic/TestHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/TestingMocks.java" afterPath="$PROJECT_DIR$/src/com/validic/TestingMocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/TobaccoCessation.java" afterPath="$PROJECT_DIR$/src/com/validic/core/TobaccoCessation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/UpdateTests.java" afterPath="$PROJECT_DIR$/src/com/validic/UpdateTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/User.java" afterPath="$PROJECT_DIR$/src/com/validic/core/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/ValidicClient.java" afterPath="$PROJECT_DIR$/src/com/validic/ValidicClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/ValidicErrorHandler.java" afterPath="$PROJECT_DIR$/src/com/validic/ValidicErrorHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/ValidicObjectException.java" afterPath="$PROJECT_DIR$/src/com/validic/ValidicObjectException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/validic/core/Weight.java" afterPath="$PROJECT_DIR$/src/com/validic/core/Weight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/XML.java" afterPath="$PROJECT_DIR$/src/org/json/XML.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/json/XMLTokener.java" afterPath="$PROJECT_DIR$/src/org/json/XMLTokener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Request.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Request.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/RetrieveTests.html" afterPath="$PROJECT_DIR$/doc/com/validic/RetrieveTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Routine.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Routine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Sleep.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Sleep.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Summary.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/TestHelper.html" afterPath="$PROJECT_DIR$/doc/com/validic/TestHelper.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/TestingMocks.html" afterPath="$PROJECT_DIR$/doc/com/validic/TestingMocks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/TobaccoCessation.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/TobaccoCessation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/UpdateTests.html" afterPath="$PROJECT_DIR$/doc/com/validic/UpdateTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/User.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/User.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/ValidicClient.html" afterPath="$PROJECT_DIR$/doc/com/validic/ValidicClient.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/ValidicErrorHandler.html" afterPath="$PROJECT_DIR$/doc/com/validic/ValidicErrorHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/ValidicObjectException.html" afterPath="$PROJECT_DIR$/doc/com/validic/ValidicObjectException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/Weight.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/Weight.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/XML.html" afterPath="$PROJECT_DIR$/doc/org/json/XML.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/XMLTokener.html" afterPath="$PROJECT_DIR$/doc/org/json/XMLTokener.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.android.ide.eclipse.adt.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/constant-values.html" afterPath="$PROJECT_DIR$/doc/constant-values.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.intro/dialog_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/index-files/index-1.html" afterPath="$PROJECT_DIR$/doc/index-files/index-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.usagedata.recording.prefs" />
@@ -94,14 +164,31 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-frame.html" afterPath="$PROJECT_DIR$/doc/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/overview-tree.html" afterPath="$PROJECT_DIR$/doc/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/validic/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/package-frame.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/package-frame.html" afterPath="$PROJECT_DIR$/doc/org/json/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/package-list" afterPath="$PROJECT_DIR$/doc/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/validic/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/package-summary.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/package-summary.html" afterPath="$PROJECT_DIR$/doc/org/json/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/validic/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/com/validic/core/package-tree.html" afterPath="$PROJECT_DIR$/doc/com/validic/core/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/org/json/package-tree.html" afterPath="$PROJECT_DIR$/doc/org/json/package-tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/serialized-form.html" afterPath="$PROJECT_DIR$/doc/serialized-form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.epp.usagedata.recording/usagedata.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/version.ini" afterPath="$PROJECT_DIR$/.metadata/version.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Lib.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,105 +211,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ClientTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/validic/ClientTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="441" max-vertical-offset="884">
-              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientTests.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/ClientTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38746437" vertical-offset="0" max-vertical-offset="1003">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="646">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Nutrition.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/core/Nutrition.java">
+      <file leaf-file-name="CreateTests.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/validic/CreateTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="2482">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/TestHelper.java">
+      <file leaf-file-name="DeleteTests.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/validic/DeleteTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.1994135" vertical-offset="0" max-vertical-offset="4403">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidicObjectException.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/ValidicObjectException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="425">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CDL.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/json/CDL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="4777">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HTTP.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/json/HTTP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2509" max-vertical-offset="2873">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Biometric.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/core/Biometric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5559">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RetrieveTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/RetrieveTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2907">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Filters.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/Filters.java">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/Filters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1516" max-vertical-offset="2839">
+              <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/core/GetRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="2992">
+              <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JacksonConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/validic/JacksonConverter.java">
+      <file leaf-file-name="Property.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/json/Property.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="1292">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidicClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/ValidicClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4134" max-vertical-offset="6205">
+              <caret line="249" column="24" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Biometric.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/core/Biometric.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="5559">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOrganization.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/validic/core/IOrganization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -242,7 +333,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/validic/RetrieveTests.java" />
+        <option value="$PROJECT_DIR$/src/org/json/XMLTokener.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/validic/UpdateTests.java" />
+        <option value="$PROJECT_DIR$/src/com/validic/UpdateTests.java" />
+        <option value="$PROJECT_DIR$/src/main/validic/json/JSONObject.java" />
+        <option value="$PROJECT_DIR$/src/tests/validic/TestingMocks.java" />
+        <option value="$PROJECT_DIR$/src/tests/validic/ClientTests.java" />
+        <option value="$PROJECT_DIR$/src/tests/validic/RetrieveTests.java" />
+        <option value="$PROJECT_DIR$/src/main/validic/core/IOrganization.java" />
+        <option value="$PROJECT_DIR$/src/tests/validic/CreateTests.java" />
+        <option value="$PROJECT_DIR$/src/main/validic/ValidicClient.java" />
+        <option value="$PROJECT_DIR$/src/main/validic/Filters.java" />
+        <option value="$PROJECT_DIR$/src/tests/validic/DeleteTests.java" />
       </list>
     </option>
   </component>
@@ -261,17 +364,17 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="RESTLibrary" />
+          <option name="myItemId" value="Validic Native API for Java" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="1" />
-    <option name="width" value="1345" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1381" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -280,7 +383,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -299,7 +402,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,24 +409,6 @@
               <option name="myItemId" value="Lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-collections-1.0-rc2.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -333,47 +417,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="JavaValidic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaValidic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="json" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaValidic" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="validic" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -387,8 +436,127 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="findjar.last.used.dir" value="C:/JavaLib" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="JavaValidic" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in Lib">
+    <configuration default="false" name="main.validic in Lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="main.validic" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ClientTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.validic" />
+      <option name="MAIN_CLASS_NAME" value="tests.validic.ClientTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="UpdateTests.UpdateFitnessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.validic" />
+      <option name="MAIN_CLASS_NAME" value="tests.validic.UpdateTests" />
+      <option name="METHOD_NAME" value="UpdateFitnessTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeleteTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.validic" />
+      <option name="MAIN_CLASS_NAME" value="tests.validic.DeleteTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Lib" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lib" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -518,7 +686,22 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="0" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.main.validic in Lib" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ClientTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UpdateTests.UpdateFitnessTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeleteTests" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Lib" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in Lib" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeleteTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UpdateTests.UpdateFitnessTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ClientTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.main.validic in Lib" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -537,31 +720,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="1" width="1345" height="728" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1381" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2535741" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24615385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34358975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38714734" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
@@ -580,6 +763,7 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -589,79 +773,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/validic/CreateTests.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/ClientTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/JacksonConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/RetrieveTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2907">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/Filters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/core/Biometric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5559">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/TestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/json/CDL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="4777">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/json/HTTP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2509" max-vertical-offset="2873">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/core/Nutrition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,13 +791,301 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/validic/ClientTests.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/ClientTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38746437" vertical-offset="0" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
           <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/Nutrition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4063">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="391">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/CDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="4845">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/HTTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2509" max-vertical-offset="2873">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/Biometric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8041">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/RetrieveTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="2907">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3451">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/JacksonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1105">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/TestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/Nutrition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2941">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/HTTP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0432432" vertical-offset="2318" max-vertical-offset="2873">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/XMLTokener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6780627" vertical-offset="884" max-vertical-offset="6375">
+          <caret line="66" column="42" selection-start-line="66" selection-start-column="42" selection-end-line="66" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/JSONML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="716" max-vertical-offset="8041">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/JacksonConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0454545" vertical-offset="0" max-vertical-offset="1105">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/UpdateTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.314024" vertical-offset="0" max-vertical-offset="3995">
+          <caret line="199" column="25" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/JSONArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="13546" max-vertical-offset="16252">
+          <caret line="827" column="19" selection-start-line="827" selection-start-column="19" selection-end-line="827" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11591" max-vertical-offset="27897">
+          <caret line="713" column="19" selection-start-line="713" selection-start-column="19" selection-end-line="713" selection-end-column="19" />
+          <folding>
+            <element signature="e#25665#25666#0" expanded="true" />
+            <element signature="e#25725#25726#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/TestingMocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1841" max-vertical-offset="2125">
+          <caret line="117" column="14" selection-start-line="117" selection-start-column="14" selection-end-line="117" selection-end-column="14" />
+          <folding>
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2108#2109#0" expanded="true" />
+            <element signature="e#2160#2161#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2322#2323#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2418#2419#0" expanded="true" />
+            <element signature="e#2469#2470#0" expanded="true" />
+            <element signature="e#2514#2515#0" expanded="true" />
+            <element signature="e#2562#2563#0" expanded="true" />
+            <element signature="e#2616#2617#0" expanded="true" />
+            <element signature="e#2668#2669#0" expanded="true" />
+            <element signature="e#2718#2719#0" expanded="true" />
+            <element signature="e#2768#2769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/Fitness.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1195" max-vertical-offset="2516">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/CDL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="4777">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/RetrieveTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/json/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="496" max-vertical-offset="1292">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/ClientTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="646">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="2992">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/IOrganization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/CreateTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="2482">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/ValidicClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4134" max-vertical-offset="6205">
+          <caret line="249" column="24" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/core/Biometric.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="5559">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1516" max-vertical-offset="2839">
+          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/validic/ValidicObjectException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="425">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/validic/DeleteTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1994135" vertical-offset="0" max-vertical-offset="4403">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
