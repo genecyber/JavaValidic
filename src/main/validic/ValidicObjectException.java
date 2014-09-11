@@ -1,6 +1,6 @@
-package main.validic;
+package src.main.validic;
 
-import main.validic.core.GetRequest;
+import src.main.validic.core.GetRequest;
 import retrofit.RetrofitError;
 
 public class ValidicObjectException extends Throwable {

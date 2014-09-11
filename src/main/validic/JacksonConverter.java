@@ -1,4 +1,4 @@
-package main.validic;
+package src.main.validic;
 
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -34,7 +34,7 @@ public class JacksonConverter implements Converter {
     this.objectMapper = objectMapper;
   }
 
-  @Override public Object fromBody(TypedInput body, Type type) throws ConversionException {
+  public Object fromBody(TypedInput body, Type type) throws ConversionException {
     try {
       JavaType javaType = objectMapper.getTypeFactory().constructType(type);
       return objectMapper.readValue(body.in(), javaType);
@@ -47,7 +47,7 @@ public class JacksonConverter implements Converter {
     }
   }
 
-  @Override public TypedOutput toBody(Object object) {
+  public TypedOutput toBody(Object object) {
     try {
       String json = objectMapper.writeValueAsString(object);
       return new TypedByteArray(MIME_TYPE, json.getBytes("UTF-8"));

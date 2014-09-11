@@ -1,6 +1,7 @@
-package main.validic;
+package src.main.validic;
 
-import main.validic.core.*;
+import src.main.validic.core.IUsers;
+import src.main.validic.core.*;
 import retrofit.ErrorHandler;
 import retrofit.RestAdapter;
 

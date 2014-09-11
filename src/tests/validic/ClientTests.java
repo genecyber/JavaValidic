@@ -1,9 +1,9 @@
-package tests.validic;
+package src.tests.validic;
 
 import com.google.common.collect.ImmutableMap;
-import main.validic.Filters;
-import main.validic.Filters.ExpandedFilter;
-import main.validic.Filters.StatusFilter;
+import src.main.validic.Filters;
+import src.main.validic.Filters.ExpandedFilter;
+import src.main.validic.Filters.StatusFilter;
 import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
@@ -12,7 +12,7 @@ import static org.junit.Assert.assertTrue;
 public class ClientTests {
 
     @Test
-	public void FilterEmptyMapTest() throws SecurityException, IllegalArgumentException, NoSuchFieldException, IllegalAccessException {
+	public void test_FilterEmptyMapTest() throws SecurityException, IllegalArgumentException, NoSuchFieldException, IllegalAccessException {
 		Filters filter = new Filters();
 		ImmutableMap<String,String> map = filter.GetFilterMap();
 		assertTrue(map.values().size() == 0);

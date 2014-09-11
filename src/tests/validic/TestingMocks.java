@@ -1,7 +1,15 @@
-package tests.validic;
+package src.tests.validic;
 
-import main.validic.Filters;
-import main.validic.core.*;
+import src.main.validic.Filters;
+import src.main.validic.core.Biometric;
+import src.main.validic.core.Diabetes;
+import src.main.validic.core.Fitness;
+import src.main.validic.core.Nutrition;
+import src.main.validic.core.Routine;
+import src.main.validic.core.Sleep;
+import src.main.validic.core.TobaccoCessation;
+import src.main.validic.core.Weight;
+
 
 class TestingMocks {
 	

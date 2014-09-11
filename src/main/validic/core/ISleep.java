@@ -1,4 +1,4 @@
-package main.validic.core;
+package src.main.validic.core;
 
 import retrofit.http.*;
 

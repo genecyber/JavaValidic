@@ -1,4 +1,4 @@
-package main.validic;
+package src.main.validic;
 
 import com.fasterxml.jackson.annotation.*;
 import com.google.common.collect.ImmutableMap;

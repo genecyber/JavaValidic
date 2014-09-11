@@ -1,10 +1,8 @@
-package tests.validic;
+package src.tests.validic;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import main.validic.ValidicClient;
-import main.validic.core.GetRequest;
-import main.validic.core.Request;
-import main.validic.core.User;
+import src.main.validic.*;
+import src.main.validic.core.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

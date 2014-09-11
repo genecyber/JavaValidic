@@ -1,4 +1,4 @@
-package main.validic.core;
+package src.main.validic.core;
 
 import com.fasterxml.jackson.annotation.*;
 import org.apache.commons.lang3.builder.EqualsBuilder;

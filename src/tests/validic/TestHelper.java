@@ -1,7 +1,7 @@
-package tests.validic;
+package src.tests.validic;
 
-import main.validic.core.Request;
-import main.validic.core.User;
+import src.main.validic.core.Request;
+import src.main.validic.core.User;
 
 class TestHelper {
 	

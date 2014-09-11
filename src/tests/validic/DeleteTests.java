@@ -1,8 +1,8 @@
-package tests.validic;
+package src.tests.validic;
 
-import main.validic.ValidicClient;
-import main.validic.ValidicObjectException;
-import main.validic.core.*;
+import src.main.validic.ValidicClient;
+import src.main.validic.ValidicObjectException;
+import src.main.validic.core.*;
 import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;

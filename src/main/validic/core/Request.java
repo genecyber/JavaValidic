@@ -1,5 +1,5 @@
 
-package main.validic.core;
+package src.main.validic.core;
 
 import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.core.JsonProcessingException;
