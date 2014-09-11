@@ -5,7 +5,7 @@ Validic REST API Java Bindings
 
 ### Building
 ####Requirements
-- [ ] Eclipse
+- [ ] To build in Eclipse
   - [ ] Eclipse Java development tools
     - [ ] Open Eclipse
     - [ ] Help
@@ -13,7 +13,7 @@ Validic REST API Java Bindings
     - [ ] Select All Sources
     - [ ] Filter by "Eclipse Java development tools"
     - [ ] Install
-- [ ] IntelliJ
+- [ ] To build in IntelliJ
   - [ ] M2E
     - [ ] Open Eclipse
     - [ ] Help
