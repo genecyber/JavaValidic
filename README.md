@@ -6,19 +6,13 @@ Validic REST API Java Bindings
 ### Building
 ####Requirements
 - [ ] To build in Eclipse
-  - [ ] Eclipse Java development tools
-    - [ ] Open Eclipse
-    - [ ] Help
-    - [ ] Install new software 
-    - [ ] Select All Sources
-    - [ ] Filter by "Eclipse Java development tools"
-    - [ ] Install
-  - [ ] M2E
+  - [ ] M2E (Luna)
     - [ ] Open Eclipse
     - [ ] Help
     - [ ] Eclipse Marketplace
-    - [ ] Search by "m2e"
+    - [ ] Search by "m2e Settings"
     - [ ] Install
+    - [ ] Search by "m2e Settings"
 
 
 Cli (Maven)
